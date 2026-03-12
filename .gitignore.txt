@@ -1,0 +1,33 @@
+# Visual Studio Code settings
+.vscode/
+.vscode-test/
+
+# AL compiler output
+*.app
+*.app.json
+*.app.package
+*.app.xml
+
+# Backup or temporary files
+*.bak
+*.tmp
+*.log
+
+# Node / npm modules (if using any Node tooling)
+node_modules/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# User-specific or IDE-specific settings
+*.code-workspace
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Test results (if using AL test runner)
+TestResults/
+TestRunnerResults/
