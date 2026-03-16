@@ -216,9 +216,6 @@ report 50100 CustomerReport
             column(GlobalDimension2Code; "Global Dimension 2 Code")
             {
             }
-            column(HomePage; "Home Page")
-            {
-            }
             column(ICPartnerCode; "IC Partner Code")
             {
             }

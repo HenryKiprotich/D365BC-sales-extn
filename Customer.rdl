@@ -628,9 +628,6 @@ End Function
         <Field Name="GlobalDimension2Code">
           <DataField>GlobalDimension2Code</DataField>
         </Field>
-        <Field Name="HomePage">
-          <DataField>HomePage</DataField>
-        </Field>
         <Field Name="ICPartnerCode">
           <DataField>ICPartnerCode</DataField>
         </Field>

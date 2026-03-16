@@ -9,8 +9,12 @@
             "server": "http://localhost:8080/BC260",
             "serverInstance": "BC260",
             "authentication": "Windows",
-            "startupObjectId": 50102, //Set the startupObjectId in the launch.json file to 50102, which is the ID of the Reward List page 
-            "startupObjectType": "Page",
+            // Leave startupObjectId and startupObjectType out if you want Business Central
+            // to open with its normal default start page or Role Center.
+            //
+            // Example: to open Reward List directly again, uncomment these two lines:
+            // "startupObjectId": 50102,
+            // "startupObjectType": "Page",
             "breakOnError": "All",
             "launchBrowser": true,
             "enableLongRunningSqlStatements": true,
