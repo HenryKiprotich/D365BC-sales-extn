@@ -1,32 +1,51 @@
 {
-  "id": "287d432f-7ec7-405c-bc68-fffc8651a121",
-  "name": "SalesExtn",
-  "publisher": "Default Publisher",
-  "version": "1.0.0.0",
-  "brief": "",
-  "description": "",
-  "privacyStatement": "",
-  "EULA": "",
-  "help": "",
-  "url": "",
-  "logo": "",
-  "dependencies": [],
-  "screenshots": [],
-  "platform": "26.0.0.0",
-  "application": "26.0.0.0",
-  "idRanges": [
-    {
-      "from": 50100,
-      "to": 50149
-    }
-  ],
-  "resourceExposurePolicy": {
-    "allowDebugging": true,
-    "allowDownloadingSource": true,
-    "includeSourceInSymbolFile": true
-  },
-  "runtime": "15.2",
-  "features": [
-    "NoImplicitWith"
-  ]
+    "id": "287d432f-7ec7-405c-bc68-fffc8651a121",
+    "name": "SalesExtn",
+    "publisher": "Default Publisher",
+    "version": "1.0.0.0",
+    "brief": "",
+    "description": "",
+    "privacyStatement": "",
+    "EULA": "",
+    "help": "",
+    "url": "",
+    "logo": "",
+    "dependencies": [
+        {
+            "id": "87990153-0e35-4e5d-ba61-2e93077d1699",
+            "name": "Review General Ledger Entries",
+            "publisher": "Microsoft",
+            "version": "26.10.45355.0"
+        },
+        {
+            "id": "e2ae191d-8829-44c3-a373-3749a2742d4e",
+            "name": "Enforced Digital Vouchers",
+            "publisher": "Microsoft",
+            "version": "26.10.45355.0"
+        },
+        {
+            "id": "3099ffc7-4cf7-4df6-9b96-7e4bc2bb587c",
+            "name": "Subscription Billing",
+            "publisher": "Microsoft",
+            "version": "26.10.45355.0"
+        }
+    ],
+    "screenshots": [],
+    "platform": "26.0.0.0",
+    "application": "26.10.45355.0",
+    "idRanges": [
+        {
+            "from": 50100,
+            "to": 50149
+        }
+    ],
+    "resourceExposurePolicy": {
+        "allowDebugging": true,
+        "allowDownloadingSource": true,
+        "includeSourceInSymbolFile": true
+    },
+    "runtime": "15.0",
+    "features": [
+        "NoImplicitWith"
+    ]
 }
